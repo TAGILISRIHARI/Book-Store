@@ -1,0 +1,43 @@
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif; /* Set default font family */
+    background-color: #f4f4f4; /* Set background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center-align text */
+}
+
+/* Apply styles to the h1 heading */
+h1 {
+    color: #333; /* Set text color */
+    margin-top: 50px; /* Add margin from the top */
+}
+
+/* Apply styles to the div container */
+div {
+    margin-top: 30px; /* Add margin from the top */
+}
+
+/* Apply styles to the links */
+a {
+    display: inline-block; /* Display links as blocks */
+    text-decoration: none; /* Remove default underline */
+    color: #007bff; /* Set link color */
+    padding: 10px 20px; /* Add padding */
+    border: 2px solid #007bff; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    margin: 10px; /* Add margin */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Apply styles on hover for links */
+a:hover {
+    background-color: #007bff; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+/* Apply styles for link hover effects */
+a:active,
+a:focus {
+    outline: none; /* Remove outline on focus */
+}

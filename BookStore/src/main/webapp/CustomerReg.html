@@ -1,29 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Registration</title>
+    <link rel="stylesheet" type="text/css" href="CustomerRegStyle.css">
 </head>
 <body>
-	<div>
-		<form action="customerRegServlet" method="post">
-			<label>UserName</label>
-			<input type="text" name="uName" autofocus required/><br>
-			<label>Password</label>
-			<input type="text" name="pWord" required/><br>
-			<label>First Name</label>
-			<input type="text" name="fName" required/><br>
-			<label>Last Name</label>
-			<input type="text" name="lName" required/><br>
-			<label>Mail ID</label>
-			<input type="text" name="mailId" required/><br>
-			<label>Address</label>
-			<input type="text" name="address" required/><br>
-			<label>Phone Number</label>
-			<input type="text" name="phNo" required/><br><br>
-			<input type="reset" value="Clear All"/>
-			<input type="submit" value="Submit"/>
-		</form>
-	</div>
+    <div  class="form-container error-message">
+        <form action="customerRegServlet" method="post">
+            <label for="uName">Username</label>
+            <input type="text" id="uName" name="uName" autofocus required/><br>
+
+            <label for="pWord">Password</label>
+            <input type="text" id="pWord" name="pWord" required/><br>
+
+            <label for="fName">First Name</label>
+            <input type="text" id="fName" name="fName" required/><br>
+
+            <label for="lName">Last Name</label>
+            <input type="text" id="lName" name="lName" required/><br>
+
+            <label for="mailId">Mail ID</label>
+            <input type="text" id="mailId" name="mailId" required/><br>
+
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" required/><br>
+
+            <label for="phNo">Phone Number</label>
+            <input type="text" id="phNo" name="phNo" required/><br><br>
+
+            <input type="reset" value="Clear All"/>
+            <input type="submit" value="Submit"/>
+        </form>
+    </div>
 </body>
 </html>

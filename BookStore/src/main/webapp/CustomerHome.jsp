@@ -14,11 +14,21 @@
             String msg = (String)request.getAttribute("msg");
             if(msg != null && !msg.isEmpty()) {
         %>
-        <div class="message">
-            <%= msg %>
-        </div>
+      
+            <form action="customerLogin" method="post">
+                <h1>Customer Login</h1>
+               
+                 <label for="uName">Username</label>
+                <input type="text" id="uName" name="uName" required autofocus>
+                <label for="pWord">Password</label>
+                <input type="password" id="pWord" name="pWord" required>
+                <input type="submit" value="Login">
+                <a href="CustomerReg.html">New Customer?</a>
+                
+                <h3><%= msg %></h3>
+            </form>
+        
         <% } %>
-        <jsp:include page="Customer.html"/>
     </div>
 </body>
 </html>
