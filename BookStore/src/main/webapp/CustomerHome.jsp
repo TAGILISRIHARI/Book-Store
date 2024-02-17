@@ -1,16 +1,24 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Title Here</title>
+    <link rel="stylesheet" type="text/css" href="CustomerHomeStyle.css">
 </head>
 <body>
-	<%
-		String msg = (String)request.getAttribute("msg");
-		out.println(msg);
-	%>
-	<jsp:include page="Customer.html"/>
+    <div class="container">
+        <% 
+            String msg = (String)request.getAttribute("msg");
+            if(msg != null && !msg.isEmpty()) {
+        %>
+        <div class="message">
+            <%= msg %>
+        </div>
+        <% } %>
+        <jsp:include page="Customer.html"/>
+    </div>
 </body>
 </html>

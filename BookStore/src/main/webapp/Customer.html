@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Login</title>
+    <link rel="stylesheet" href="CustomerStyle.css">
 </head>
 <body>
-	<div>
-		<h1>Customer Login</h1>
-		<form action="customerLogin" method="post">
-			<label>UserName</label>
-			<input type="text" name="uName" required autofocus><br>
-			<label>Password</label>
-			<input type="text" name="pWord" required><br><br>
-			<input type="submit" value="Loign"><br>
-			<a href="CustomerReg.html" >New Customer ?</a>
-		</form>
-	</div>
+    <div class="container">
+        <form action="customerLogin" method="post">
+            <h1>Customer Login</h1>
+            <label for="uName">Username</label>
+            <input type="text" id="uName" name="uName" required autofocus>
+            <label for="pWord">Password</label>
+            <input type="password" id="pWord" name="pWord" required>
+            <input type="submit" value="Login">
+            <a href="CustomerReg.html">New Customer?</a>
+        </form>
+    </div>
 </body>
 </html>
