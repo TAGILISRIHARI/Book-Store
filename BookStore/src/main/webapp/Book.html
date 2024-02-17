@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Book</title>
+<link rel="stylesheet" href="BookStyle.css">
+</head>
+<body>
+	<div class="container">
+		<h2>Fill Book Details</h2>
+		<form action="addBookDetails" method="post">
+			<label>Book Code</label>
+			<input type="text" name="bookCode" required autofocus/><br>
+			<label>Book Name</label>
+			<input type="text" name="bookName" required/><br>
+			<label>Book Author</label>
+			<input type="text" name="bookAuthor" required/><br>
+			<label>Book Prize</label>
+			<input type="text" name="bookPrize" required/><br>
+			<label>Book QTY</label>
+			<input type="text" name="bookQTY" required/><br><br>
+			<input type="submit" value="Add Book"/>
+		</form>
+	</div>
+</body>
+</html>
