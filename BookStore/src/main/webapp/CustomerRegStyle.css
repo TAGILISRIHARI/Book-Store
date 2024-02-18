@@ -65,7 +65,7 @@ input[type="reset"]:focus {
 }
 
 .error-message {
-    color: rgb(64, 0, 64);
+    color: rgb(255, 0, 0);
     font-size: 14px;
     margin-top: 8px;
 }
