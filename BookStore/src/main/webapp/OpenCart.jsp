@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Cart</title>
 </head>
 <body>
 	<form action="takeOutBooks" method="get"> 
@@ -35,7 +35,6 @@
 		if(al.size()>0)
 		{
 			out.println("<br><br><input type='submit' value ='Buy Products'>");
-			out.println("<br><br><input type='submit' value ='Take Out'>");
 		}
 	%>
 	</form>

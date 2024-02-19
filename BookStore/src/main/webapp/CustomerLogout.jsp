@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invalid Login</title>
+    <title>Logout</title>
     <link rel="stylesheet" type="text/css" href="CustomerLogoutStyle.css">
 </head>
 <body>
@@ -24,7 +24,7 @@
             <input type="password" id="pWord" name="pWord" required>
             <input type="submit" value="Login">
             <a href="CustomerReg.html">New Customer?</a>
-            <h3 class="error-message">You logout from session</h3>
+            <h3 class="error-message">Logged Out</h3>
         </form>
     </div>
 </body>

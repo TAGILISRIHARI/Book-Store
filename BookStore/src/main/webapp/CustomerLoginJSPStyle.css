@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Set background image */
+    background-image: url('mybook8.jpg');
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+}
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 1); /* Add transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
+}
+h3 {
+    color: #333;
+}
+p {
+    color: #666;
+}
+a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+a:hover {
+    background-color: #45a049;
+}
